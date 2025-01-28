@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Payment Form</title>
+    </head>
+    <body>
+        <h1>Payment Form</h1>
+        <p>Card #: 4242424242424242</p>
+        <p>cvc #: 123</p>
+        <p>Date : 10 10 2040</p>
+            <form action="/charge" method="POST">
+                <label for="cardNumber">Card Number:</label><br>
+                <input type="text" id="cardNumber" name="cardNumber" required><br><br>
+
+                <label for="expMonth">Expiry Month (MM):</label><br>
+                <input type="text" id="expMonth" name="expMonth" required><br><br>
+
+                <label for="expYear">Expiry Year (YYYY):</label><br>
+                <input type="text" id="expYear" name="expYear" required><br><br>
+
+                <label for="cvc">CVC:</label><br>
+                <input type="text" id="cvc" name="cvc" required><br><br>
+
+                <button type="submit">Pay $50.00</button>
+            </form>
+        </body>
+</html>

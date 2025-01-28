@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.ElementsApp .StripeField--fake{
+    /* display: block !important;
+    pointer-events: painted !important; */
+}
+#card-element{
+    /* display: flex;
+    flex-direction: row | row-reverse | column | column-reverse; */
+}
+}
